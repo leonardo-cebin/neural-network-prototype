@@ -5,6 +5,8 @@ from sklearn.linear_model import LinearRegression
 time_study = np.array([33, 47, 33, 59, 26, 5, 41, 18, 53, 9, 30, 55, 22]).reshape(-1,1)
 scores = np.array([23, 3, 27, 58, 16, 49, 7, 35, 21, 50, 12, 39, 24]).reshape(-1,1)
 
+#sao números gerados aleatoriamente usando GPT
+
 model = LinearRegression()
 model.fit(time_study, scores)
 
